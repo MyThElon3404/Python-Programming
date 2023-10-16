@@ -1,0 +1,155 @@
+											Python Tutorial
+=================================================================================
+Python is a widely used general-purpose, high level programming language. It was created by Guido van Rossum in 1991 and further developed by the Python Software Foundation. It was designed with an emphasis on code readability, and its syntax allows programmers to express their concepts in fewer lines of code.
+
+Python is a programming language that lets you work quickly and integrate systems more efficiently.
+
+# Reason for increasing popularity - 
+	1. Emphasis on code readability, shorter codes, ease of writing
+	2. Programmers can express logical concepts in fewer lines of code in comparison to languages such as C++ or Java.
+	3. Python supports multiple programming paradigms, like object-oriented, imperative and functional programming or procedural.
+	4. There exists inbuilt functions for almost all of the frequently used concepts.
+	5. Philosophy is “Simplicity is the best”.
+
+# LANGUAGE FEATURES - 
+	1. Interpreted
+	2. Platform Independent
+	3. Free and Open Source
+	4. High-level Language
+	5. Simple
+	6. Robust
+	7. Rich Library Support
+
+# Pros:
+	1. Ease of use
+	2. Multi-paradigm Approach
+
+#Cons:
+	1. Slow speed of execution compared to C,C++
+	2. Absence from mobile computing and browsers
+	3. For the C,C++ programmers switching to python can be irritating as the language requires proper indentation of code. 
+	4. Certain variable names commonly used like sum are functions in python. So C, C++ programmers have to look out for these.
+-----------------------------------------------------------------------------------------------------------------------------------------------
+											Python Basics
+=================================================================================
+# Variables: Variables are created by assigning a value to a name. For example, x = 5 creates a variable called x and assigns the value 5 to it.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+# Data types: Python supports several built-in data types, including integers, floats, strings, booleans, lists, tuples, and dictionaries. The type() function can be used to define the values of various data types and to check their data types.
+
+# DataType Output: str 
+x = "Hello World"
+  
+# DataType Output: int 
+x = 50
+  
+# DataType Output: float 
+x = 60.5
+  
+# DataType Output: complex 
+x = 3j
+  
+# DataType Output: list 
+x = ["geeks", "for", "geeks"] 
+  
+# DataType Output: tuple 
+x = ("geeks", "for", "geeks") 
+  
+# DataType Output: range 
+x = range(10) 
+  
+# DataType Output: dict 
+x = {"name": "Suraj", "age": 24} 
+  
+# DataType Output: set 
+x = {"geeks", "for", "geeks"} 
+  
+# DataType Output: frozenset 
+x = frozenset({"geeks", "for", "geeks"}) 
+  
+# DataType Output: bool 
+x = True
+  
+# DataType Output: bytes 
+x = b"Geeks"
+  
+# DataType Output: bytearray 
+x = bytearray(4) 
+  
+# DataType Output: memoryview 
+x = memoryview(bytes(6)) 
+  
+# DataType Output: NoneType 
+x = None
+
+1. Strings in Python - A string is a sequence of characters that can be a combination of letters, numbers, and special characters. It can be declared in python by using single quotes, double quotes, or even triple quotes.
+
+2. 
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+# Comments: # is used for single line comment in Python
+""" this is a comment """ is used for multi line comments
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+
+# Operators: Python 3 supports a variety of operators, including arithmetic operators (+, -, *, /), comparison operators (>, <, ==, !=), and logical operators (and, or, not).
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+# Control flow statements: Python 3 supports several control flow statements, including if-else statements, for loops, and while loops. These statements allow you to control the flow of execution in your code.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+# Functions: In Python 3, functions are created using the def keyword. For example, def my_function(x): creates a function called my_function that takes one argument called x.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+# Input and output: In Python 3, you can use the input() function to get user input, and the print() function to output text to the console.
+	1. input (): This function first takes the input from the user and converts it into a string. The type of the returned object always will be <class ‘str’>.
+	2. raw_input(): This function works in older version (like Python 2.x).
+	3. Output Formatting in Python - There are several ways to format output using String Method in Python. 
+		i. Using String Modulo Operator(%)
+		ii. Using Format Method
+		iii. Using The String Method
+		iv. Python’s Format Conversion Rule
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+# Taking multiple inputs from user - 
+	1. Using split() method - This function helps in getting multiple inputs from users. It breaks the given input by the specified separator. If a separator is not provided then any white space is a separator. Generally, users use a split() method to split a Python string but one can use it in taking multiple inputs.
+	2. Using List comprehension : List comprehension is an elegant way to define and create a list in Python. We can create lists just like mathematical statements in one line only. It is also used in getting multiple inputs from a user. 
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+# Modules: Python 3 supports modules, which are collections of functions and variables that can be imported and used in other Python code. You can import modules using the import keyword.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+# Keywords in Python are reserved words that can not be used as a variable name, function name, or any other identifier. [‘False’, ‘None’, ‘True’, ‘and’, ‘as’, ‘assert’, ‘async’, ‘await’, ‘break’, ‘class’, ‘continue’, ‘def’, ‘del’, ‘elif’, ‘else’, ‘except’, ‘finally’, ‘for’, ‘from’, ‘global’, ‘if’, ‘import’, ‘in’, ‘is’, ‘lambda’, ‘nonlocal’, ‘not’, ‘or’, ‘pass’, ‘raise’, ‘return’, ‘try’, ‘while’, ‘with’, ‘yield’]
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
