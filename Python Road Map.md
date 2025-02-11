@@ -2,7 +2,6 @@
 Start with the fundamentals of Python to build a solid foundation.
 
 ### ✅ Key Topics to Learn:
-
 1. Python Basics: Variables, data types, loops, functions, and conditional statements.
 2. Data Structures: Lists, tuples, dictionaries, and sets.
 3. File Handling: Reading and writing CSV, Excel, and JSON files using Python.
